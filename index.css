@@ -1,0 +1,19 @@
+main{
+    width: 400px;
+}
+
+.jatekter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.jatekter div{
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(224, 167, 224);
+}
+
+.felkapcs{
+    background-color: rgb(192, 224, 167) !important;
+}
